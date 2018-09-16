@@ -9,6 +9,8 @@
           class="button--green">Dark on light</nuxt-link>
         <nuxt-link to="/emilie-noir"
           class="button--green">Emilie Noir</nuxt-link>
+        <nuxt-link to="/casting-moscow"
+          class="button--green">Casting Moscow</nuxt-link>
       </div>
     </div>
   </section>
