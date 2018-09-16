@@ -121,6 +121,7 @@ a {
     padding: .5rem 1rem;
     svg {
       margin-right: .5em;
+      vertical-align: sub;
     }
   }
 }
