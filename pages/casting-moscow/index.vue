@@ -90,7 +90,19 @@ nav ul {
 }
 .right {
   background-color: #f2f2f2;
+  position: relative;
   width: calc(100% - 400px);
+
+  &::before {
+    background-image: linear-gradient(to right, #222, rgba(#222, 0) 30%);
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;  
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
 }
 
 .VueCarousel {
