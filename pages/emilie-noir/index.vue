@@ -1,23 +1,21 @@
 <template>
-  <section class="container">
+  <div class="container">
     <div>
       <h1 class="title">
         esj
       </h1>
       <div class="links">
-        <nuxt-link to="/dark-on-light"
-          class="button--green">Dark on light</nuxt-link>
-        <nuxt-link to="/emilie-noir"
-          class="button--green">Emilie Noir</nuxt-link>
+        <nuxt-link to="/emilie-noir/v1" class="button--green">Version 1</nuxt-link>
+        <nuxt-link to="/emilie-noir/v2" class="button--green"> Version 2</nuxt-link>
       </div>
     </div>
-  </section>
+  </div>
+
 </template>
 
 <script>
 export default {};
 </script>
-
 <style lang="scss" scoped>
 .container {
   min-height: 100vh;
@@ -26,7 +24,6 @@ export default {};
   align-items: center;
   text-align: center;
 }
-
 .title {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: block;
